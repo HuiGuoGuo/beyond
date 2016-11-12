@@ -10,6 +10,7 @@
     <modules>
         <module>beyond-dal</module>
         <module>beyond-api</module>
+        <module>beyond-common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -24,6 +25,9 @@
         <hiberate-commons.version>3.2.0.Final</hiberate-commons.version>
         <mchange.version>0.9.5.2</mchange.version>
         <slfj.version>1.7.21</slfj.version>
+        <beetl.version>2.4.1</beetl.version>
+        <tomcat.version>8.0.3</tomcat.version>
+        <apache.commons.version>3.5</apache.commons.version>
     </properties>
 
     <dependencyManagement>
@@ -106,13 +110,7 @@
                 <scope>compile</scope>
             </dependency>
 
-            <!-- javax.servlet-api -->
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>${servlet-api.version}</version>
-                <scope>provided</scope>
-            </dependency>
+
 
             <!-- MySQL. -->
             <dependency>
@@ -139,12 +137,12 @@
             </dependency>
 
             <!-- hibernate-core -->
-            <!--<dependency>-->
-            <!--<groupId>org.hibernate</groupId>-->
-            <!--<artifactId>hibernate-core</artifactId>-->
-            <!--<version>${hiberate.version}</version>-->
-            <!--<scope>compile</scope>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <version>${hiberate.version}</version>
+                <scope>compile</scope>
+            </dependency>
 
             <!-- hibernate-c3p0 -->
             <dependency>
@@ -175,6 +173,93 @@
                 <version>${slfj.version}</version>
             </dependency>
 
+            <!--beetl-->
+            <dependency>
+                <groupId>com.ibeetl</groupId>
+                <artifactId>beetl</artifactId>
+                <version>${beetl.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- tomcat -->
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-core</artifactId>
+                <version>${tomcat.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-logging-juli</artifactId>
+                <version>${tomcat.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-jasper</artifactId>
+                <version>${tomcat.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- javax.servlet-api -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Apache. -->
+           <!-- <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.ant</groupId>
+                <artifactId>ant</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-dbcp</groupId>
+                <artifactId>commons-dbcp</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${apache.commons.version}</version>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+
+
+    </dependencies>
 </project>

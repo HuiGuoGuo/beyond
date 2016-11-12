@@ -23,12 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="beyond-api" />
+        <module name="beyond-common" />
         <module name="beyond-dal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="beyond" target="1.7" />
       <module name="beyond-api" target="1.7" />
+      <module name="beyond-common" target="1.7" />
       <module name="beyond-dal" target="1.7" />
     </bytecodeTargetLevel>
   </component>
