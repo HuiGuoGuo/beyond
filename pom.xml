@@ -25,6 +25,7 @@
         <hiberate-commons.version>3.2.0.Final</hiberate-commons.version>
         <mchange.version>0.9.5.2</mchange.version>
         <slfj.version>1.7.21</slfj.version>
+        <logback.version>1.1.7</logback.version>
         <beetl.version>2.4.1</beetl.version>
         <tomcat.version>8.0.3</tomcat.version>
         <apache.commons.version>3.2.1</apache.commons.version>
@@ -180,6 +181,26 @@
                 <artifactId>slf4j-api</artifactId>
                 <version>${slfj.version}</version>
             </dependency>
+
+            <!-- logback -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+
+
 
             <!--beetl-->
             <dependency>
