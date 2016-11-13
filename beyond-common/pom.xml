@@ -12,4 +12,9 @@
     <packaging>jar</packaging>
 
     <artifactId>beyond-common</artifactId>
+
+    <dependencies>
+
+
+    </dependencies>
 </project>
