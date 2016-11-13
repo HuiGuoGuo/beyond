@@ -4,7 +4,6 @@ package com.stone.beyong.api.start;
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.catalina.startup.Tomcat;
-import org.apache.commons.lang3.SystemUtils;
 import org.apache.tomcat.util.scan.StandardJarScanner;
 
 import javax.servlet.ServletException;

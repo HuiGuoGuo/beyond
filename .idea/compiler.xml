@@ -28,10 +28,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="beyond" target="1.7" />
-      <module name="beyond-api" target="1.7" />
-      <module name="beyond-common" target="1.7" />
-      <module name="beyond-dal" target="1.7" />
+      <module name="beyond" target="1.5" />
+      <module name="beyond-api" target="1.5" />
+      <module name="beyond-common" target="1.5" />
+      <module name="beyond-dal" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

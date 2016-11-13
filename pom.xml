@@ -27,7 +27,7 @@
         <slfj.version>1.7.21</slfj.version>
         <beetl.version>2.4.1</beetl.version>
         <tomcat.version>8.0.3</tomcat.version>
-        <apache.commons.version>3.5</apache.commons.version>
+        <apache.commons.version>3.2.1</apache.commons.version>
     </properties>
 
     <dependencyManagement>
@@ -44,6 +44,13 @@
                 <artifactId>beyond-dal</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.stone.beyond</groupId>
+                <artifactId>beyond-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
             <!--  junit-->
             <dependency>
@@ -210,51 +217,60 @@
             </dependency>
 
             <!-- Apache. -->
-           <!-- <dependency>
+            <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-collections</groupId>
                 <artifactId>commons-collections</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.ant</groupId>
                 <artifactId>ant</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>commons-dbcp</groupId>
                 <artifactId>commons-dbcp</artifactId>
                 <version>${apache.commons.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${apache.commons.version}</version>
-            </dependency>-->
+                <scope>compile</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
