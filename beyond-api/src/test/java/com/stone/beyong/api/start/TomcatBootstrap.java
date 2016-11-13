@@ -22,7 +22,7 @@ public class TomcatBootstrap {
 		
 		//System.setProperty("spring.profiles.active", profile);
 
-		Tomcat tomcat = TomcatFactory.createTomcat( port, isServlet3 );
+		Tomcat tomcat = new TomcatFactory().createTomcat( port, isServlet3 );
 
 		try {
 			tomcat.start();
