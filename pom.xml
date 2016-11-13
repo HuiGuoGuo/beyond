@@ -28,6 +28,7 @@
         <beetl.version>2.4.1</beetl.version>
         <tomcat.version>8.0.3</tomcat.version>
         <apache.commons.version>3.2.1</apache.commons.version>
+        <aspectj.version>1.8.9</aspectj.version>
     </properties>
 
     <dependencyManagement>
@@ -271,6 +272,15 @@
                 <version>${apache.commons.version}</version>
                 <scope>compile</scope>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
