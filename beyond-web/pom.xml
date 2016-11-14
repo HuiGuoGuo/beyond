@@ -17,6 +17,11 @@
             <artifactId>beyond-dal</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.stone.beyond</groupId>
+            <artifactId>beyond-utils</artifactId>
+        </dependency>
+
         <!--beetl-->
         <dependency>
             <groupId>com.ibeetl</groupId>
@@ -46,11 +51,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Apache. -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
 
         <!--  junit-->
         <dependency>

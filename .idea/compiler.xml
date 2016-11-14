@@ -23,7 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="beyond-common" />
+        <module name="beyond-core" />
         <module name="beyond-dal" />
+        <module name="beyond-persist" />
+        <module name="beyond-utils" />
         <module name="beyond-web" />
       </profile>
     </annotationProcessing>
@@ -31,7 +34,10 @@
       <module name="beyond" target="1.7" />
       <module name="beyond-api" target="1.7" />
       <module name="beyond-common" target="1.7" />
+      <module name="beyond-core" target="1.7" />
       <module name="beyond-dal" target="1.7" />
+      <module name="beyond-persist" target="1.7" />
+      <module name="beyond-utils" target="1.7" />
       <module name="beyond-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
