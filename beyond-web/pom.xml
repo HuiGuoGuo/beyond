@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.stone.beyond</groupId>
-            <artifactId>beyond-dal</artifactId>
+            <artifactId>beyond-persist</artifactId>
         </dependency>
 
         <dependency>

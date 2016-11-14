@@ -12,6 +12,7 @@
         <module>beyond-utils</module>
         <module>beyond-web</module>
         <module>beyond-core</module>
+
     </modules>
     <packaging>pom</packaging>
 
