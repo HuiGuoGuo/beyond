@@ -30,6 +30,7 @@
         <tomcat.version>8.0.3</tomcat.version>
         <apache.commons.version>3.2.1</apache.commons.version>
         <aspectj.version>1.8.9</aspectj.version>
+        <fastjson.version>1.2.20</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -120,7 +121,6 @@
             </dependency>
 
 
-
             <!-- MySQL. -->
             <dependency>
                 <groupId>mysql</groupId>
@@ -199,7 +199,6 @@
                 <artifactId>logback-access</artifactId>
                 <version>${logback.version}</version>
             </dependency>
-
 
 
             <!--beetl-->
@@ -300,6 +299,21 @@
                 <artifactId>aspectjrt</artifactId>
                 <version>${aspectj.version}</version>
                 <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
 
         </dependencies>
