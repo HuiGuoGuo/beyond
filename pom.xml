@@ -35,26 +35,21 @@
 
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>com.stone.beyond</groupId>
                 <artifactId>beyond-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.stone.beyond</groupId>
                 <artifactId>beyond-dal</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.stone.beyond</groupId>
                 <artifactId>beyond-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
-
             <!--  junit-->
             <dependency>
                 <groupId>junit</groupId>
