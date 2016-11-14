@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/beyond.iml" filepath="$PROJECT_DIR$/beyond.iml" />
-      <module fileurl="file://$PROJECT_DIR$/beyond-api/beyond-api.iml" filepath="$PROJECT_DIR$/beyond-api/beyond-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/beyond-common/beyond-common.iml" filepath="$PROJECT_DIR$/beyond-common/beyond-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/beyond-dal/beyond-dal.iml" filepath="$PROJECT_DIR$/beyond-dal/beyond-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beyond-web/beyond-web.iml" filepath="$PROJECT_DIR$/beyond-web/beyond-web.iml" />
     </modules>
   </component>
 </project>

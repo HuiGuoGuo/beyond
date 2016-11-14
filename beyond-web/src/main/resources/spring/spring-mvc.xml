@@ -16,7 +16,7 @@
        default-lazy-init="false">
 
     <!--配置扫描的包-->
-    <context:component-scan base-package="com.stone.beyond.api" use-default-filters="false">
+    <context:component-scan base-package="com.stone.beyond.web" use-default-filters="false">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:include-filter type="annotation"
                                 expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
@@ -24,7 +24,7 @@
 
     <!--配置视图解析器,这里使用Beetl 模板引擎-->
 
-    <bean class="org.beetl.ext.spring.BeetlGroupUtilConfiguration" init-method="init" />
+    <bean class="org.beetl.ext.spring.BeetlGroupUtilConfiguration" init-method="init"/>
     <bean id="beetlSpringViewResolver" class="org.beetl.ext.spring.BeetlSpringViewResolver">
         <property name="contentType" value="text/html;charset=UTF-8"/>
         <property name="prefix" value="WEB-INF/views/"/>
@@ -32,7 +32,7 @@
     </bean>
 
     <!--配置Spring aop 日志-->
-    <aop:aspectj-autoproxy proxy-target-class="false" />
+    <aop:aspectj-autoproxy proxy-target-class="false"/>
 
     <mvc:default-servlet-handler/>
 

@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-    <context:component-scan base-package="com.stone.beyond.api">
+    <context:component-scan base-package="com.stone.beyond.web">
 
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:exclude-filter type="annotation"

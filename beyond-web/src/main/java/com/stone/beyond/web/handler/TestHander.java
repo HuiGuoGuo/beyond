@@ -1,4 +1,4 @@
-package com.stone.beyond.api.handler;
+package com.stone.beyond.web.handler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

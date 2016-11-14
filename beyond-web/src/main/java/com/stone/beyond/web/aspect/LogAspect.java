@@ -1,4 +1,4 @@
-package com.stone.beyond.api.aspect;
+package com.stone.beyond.web.aspect;
 
 import com.alibaba.fastjson.JSON;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -12,22 +12,21 @@ import org.springframework.stereotype.Component;
 /**
  * Created by stone on 2016/11/14.
  */
-
 @Aspect
 @Component
 public class LogAspect {
 
-   private Logger Log = LoggerFactory.getLogger(LogAspect.class);
+    private Logger Log = LoggerFactory.getLogger(LogAspect.class);
 
     /**
      * 切入点
      */
-    @Pointcut(value = "execution (* com.stone.beyond.api.handler..*.*(..))")
+    @Pointcut(value = "execution (* com.stone.beyond.web.handler..*.*(..))")
     public void pointcut() {
     }
 
 
-    @Around(value = "com.stone.beyond.api.aspect.LogAspect.pointcut()")
+    @Around(value = "com.stone.beyond.web.aspect.LogAspect.pointcut()")
     public Object process(ProceedingJoinPoint jp) throws java.lang.Throwable {
         Object rvt;
         long startTime = System.currentTimeMillis();
