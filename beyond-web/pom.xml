@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>beyond-web</artifactId>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
@@ -19,7 +20,7 @@
 
         <dependency>
             <groupId>com.stone.beyond</groupId>
-            <artifactId>beyond-utils</artifactId>
+            <artifactId>beyond-core</artifactId>
         </dependency>
 
         <!--beetl-->
@@ -85,11 +86,6 @@
             <artifactId>logback-access</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
 
 
     </dependencies>

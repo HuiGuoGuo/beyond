@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="beyond-web:war">
-    <output-path>$PROJECT_DIR$/beyond-api/target</output-path>
-    <root id="archive" name="beyond-api-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/beyond-web/target</output-path>
+    <root id="archive" name="beyond-web-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="beyond-web:war exploded" />
     </root>
   </artifact>

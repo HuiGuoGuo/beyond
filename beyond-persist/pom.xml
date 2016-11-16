@@ -14,6 +14,10 @@
     <artifactId>beyond-persist</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.stone.beyond</groupId>
+            <artifactId>beyond-model</artifactId>
+        </dependency>
         <!--  junit-->
         <dependency>
             <groupId>junit</groupId>
