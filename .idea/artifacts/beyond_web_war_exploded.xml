@@ -14,7 +14,6 @@
             <element id="module-output" name="beyond-model" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.2.RELEASE" />
@@ -61,6 +60,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-access:1.1.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
