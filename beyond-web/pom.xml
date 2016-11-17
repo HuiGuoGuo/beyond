@@ -15,11 +15,6 @@
     <dependencies>
         <dependency>
             <groupId>com.stone.beyond</groupId>
-            <artifactId>beyond-persist</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.stone.beyond</groupId>
             <artifactId>beyond-core</artifactId>
         </dependency>
 

@@ -6,33 +6,22 @@
         <artifactId>beyond</artifactId>
         <groupId>com.stone.beyond</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
 
-    <artifactId>beyond-utils</artifactId>
+    <artifactId>beyond-core</artifactId>
 
     <dependencies>
-
-        <!-- Apache. -->
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
-
-        <!-- fastjson -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
+            <groupId>com.stone.beyond</groupId>
+            <artifactId>beyond-persist</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
+            <groupId>com.stone.beyond</groupId>
+            <artifactId>beyond-utils</artifactId>
         </dependency>
-
 
     </dependencies>
+
 </project>
