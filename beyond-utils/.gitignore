@@ -1,1 +1,4 @@
 /target/
+.classpath
+.project
+beyond-utils.iml
